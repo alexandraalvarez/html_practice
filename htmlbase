@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Selectores</title>
+	<link rel="stylesheet" type="text/css" href="main.css"> 
+</head>
+<body>
+		<div class="azul">
+			<h1></h1>
+			<p>Ahora estoy probando un texto para párrafo con HTML y darle estilo con CSS</p>
+			<a href="http://twitter.com" target="_blank" ></a>
+		</div>
+		<div class="rojo">
+			<h2 id="titulo">Sub título para lista</h2>
+			<ol>
+				<li id="verde">Rojo</li>
+				<li>Morado</li>
+				<li>Verde</li>
+			</ol>
+			<img src="">
+		</div>
+		<div>
+			<h1>Hola, soy PAS</h1>
+		</div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+/**{ /*color para todo la página, si quiero darle color a cada caja, ésto estorba*/
+	/*background-color: white;
+}*/
+
+h1,h2,p{ /*para todos los h1, h2 y p del HTML*/
+	color: black;
+}
+
+.azul{/*llamando a la clase blue de la etiqueta div que está dentro del body*/
+	background-color: lightblue;
+}
+
+a{/*cambiando color del hipervínculo, y sacándole la línea que sale abajo*/
+	color: white;
+	text-decoration: none;
+}
+
+div{
+	background-color: red;
+}
+
+.rojo ol li:last-child{/* para seleccionar los li específicamente, al último*/
+	color: brown;
+}
+
+.rojo ol li:first-child{/*para afectar al primer punto de la lista*/
+	color: brown;
+}
+
+.rojo ol li:first-of-type + li{/*para afectar al segundo punto de la lista*/
+	color: black;
+}
+#verde{/*si le di ID me sale más fácil y lo puedo invocar*/
+	color: green;
+}
+
+.box{/*creando una caja y dándole estilo*/
+	background-color: purple;/*Color de la caja*/
+	padding: 1em;/*relleno de la caja, 1 em equivale a 16 pixeles*/
+	border: 1em solid violet;
+}
+
+.box1{
+	background-color: red;
+	padding: 1em;
+	margin-top: 1em;
+	border: 1em dotted black;
+	text-align: center;
+}
+.box2{
+	background-color: yellow;
+	padding: 2em;
+	margin-top: 1em;
+	border: dashed black;
+	text-align: right;
+}
+body{
+	margin: 0;/*para quitarle el margen de 8 pixeles que trae de por sí el body, no es necesario ponerle unidades a 0*/
+}
